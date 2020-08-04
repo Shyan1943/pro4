@@ -32,13 +32,8 @@ pip3 install -r requirements.txt
 ```
 ### 7. take note to keep debug on any error messages prompt in Gitpod to ensure the use Python code that is consistent in style and conforms to the PEP8 style guide and validated HTML and CSS code.
 
-### 8. To create a new Django project
-* Typing the following in the Gitpod terminal. Please note the dot character:
-```
-django-admin startproject DGReviewsProject .
-```
-
-
-
+### 8. Setting up new Django Project
+    i. At the Gitpod terminal type `django-admin startproject DGReviewsProject .` to create a new Django project. 
+    ii. At settings.py file, `ALLOWED_HOSTS = ["*"]` & saved to allow all server to run this Django project.  
 
 
