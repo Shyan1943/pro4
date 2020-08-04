@@ -48,3 +48,11 @@ pip3 install -r requirements.txt
         * enter `/admin` at the end of the url 
         * Enter in the Username & password, which just created at the above step & press enter.
 
+### 10. To create and setup a new App : 
+    i. At the Gitpod Terminal :
+        * Enter `ls -l` to make sure we can see the "manage.py" at our current working directory.
+        * Enter `django-admin startapp <app name>` to create a new apps
+    ii. In the file *setting.py*, install the app & save 
+ 
+
+
